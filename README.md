@@ -31,7 +31,9 @@ Start the development server:
 ```bash
 npm start
 ```
-Open your browser and navigate to [http://localhost:8080](http://localhost:8080) to view the form.
+Open your browser and navigate to [http://localhost:8080](http://localhost:8080) to view the form
+![FinalBootstrap](https://github.com/user-attachments/assets/8e1f1442-7605-45f4-b66d-7ae6573f6577)
+
 
 ## File Structure
 ```
