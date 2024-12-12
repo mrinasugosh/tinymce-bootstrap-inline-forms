@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TinyMCE Bootstrap Inline Forms</title>
+    <script type="module" src="./js/main.js"></script>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+  </head>
+  <body>
+    <div class="container py-4 px-3 mx-auto">
+      <h1>TinyMCE Boostrap Inline Forms</h1>
+
+      <form>
+    <!-- Inline fields -->
+    <div class="row row-cols-lg-auto g-3 align-items-center mb-3">
+      <div class="col-12">
+        <label class="visually-hidden" for="firstNameInput">First Name</label>
+        <input type="text" class="form-control" id="firstNameInput" placeholder="First Name">
+      </div>
+      <div class="col-12">
+        <label class="visually-hidden" for="lastNameInput">Last Name</label>
+        <input type="text" class="form-control" id="lastNameInput" placeholder="Last Name">
+      </div>
+      <div class="col-12">
+        <label class="visually-hidden" for="emailInput">Email</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="Email">
+      </div>
+    </div>
+
+    <!-- Description textarea -->
+    <div class="mb-3">
+      <label for="descriptionTextarea" class="form-label">Description</label>
+      <textarea class="form-control" id="descriptionTextarea" rows="4" placeholder="Enter a description here"></textarea>
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+    </div>
+    
+  </body>
+</html>
